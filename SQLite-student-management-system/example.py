@@ -11,6 +11,7 @@ class AgeCalculator(QWidget):
 
         # Create widgets
         name_label = QLabel("Name:")
+        self.setWindowTitle("Age Calculator")
         self.name_line_edit = QLineEdit()
 
         date_birth_label = QLabel("Date of Birth MM/DD/YYYY:")
