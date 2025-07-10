@@ -53,7 +53,7 @@ class InsertDialog(QDialog):
 
         layout = QVBoxLayout()
 
-        # Ad student name widget
+        # Add student name widget
         student_name = QLineEdit()
         student_name.setPlaceholderText("Name")
         layout.addWidget(student_name)
@@ -64,6 +64,13 @@ class InsertDialog(QDialog):
         course_name.addItems(courses)
         layout.addWidget(course_name)
         self.setLayout(layout)
+
+        # Add mobile widget
+        mobile = QLineEdit()
+        mobile.setPlaceholderText("Mobile")
+        layout.addWidget(mobile)
+
+
 
 
 
