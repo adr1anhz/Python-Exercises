@@ -87,6 +87,7 @@ class InsertDialog(QDialog):
         connection.commit()
         cursor.close()
         connection.close()
+        age_calculator.load_data()
 
 
 
