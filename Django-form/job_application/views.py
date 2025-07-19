@@ -19,3 +19,7 @@ def index(request):
             messages.success(request, "Form submited successfully")
             print(first_name)
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
